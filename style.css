@@ -20,23 +20,24 @@
     
   }
   .imaginationpara{
-    margin-left: 59% !important;
+    margin-left: 19% !important;
     margin-top: 12%;
     font-size: 2rem;
     color:rgb(20, 253, 4);
     font-weight: 700;
+    border-left: 5px solid rgb(254, 4, 4);
     
   }
   
   .secondpara{
-    margin-left: 60%;
+    margin-left: 20%;
     color: rgb(4, 250, 17);
     font-weight: 500;
     
   }
   
   .thirdpara{
-    margin-left: 60%;
+    margin-left: 20%;
     font-size: medium;
     color: rgb(6, 248, 18);
     font-weight: 500;
@@ -329,6 +330,11 @@ background-repeat: no-repeat;
         width: 25%;
        
     }
+    .productivemanagementbutton{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     .productivetalent p{
         font-size: smaller;
         margin-left: 2rem;
@@ -369,8 +375,14 @@ background-repeat: no-repeat;
         height: 5vh;
         width: 8vw;
         margin-right: 5rem;
+        overflow: hidden;
 
     }
+    .productivemanagementbutton{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     .productivetalent p{
         font-size: smaller;
     }
@@ -399,6 +411,10 @@ background-repeat: no-repeat;
    }
    .mechanic-logo img:hover{
     transform: scale(0.6) !important;
+   }
+
+   @media screen and (max-width:300px){
+    
    }
 
    /* Section 6 */
